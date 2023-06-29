@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header_starbucks">
+        <div class="hs_container">
+            <div class="hsc_logo"></div>
+            <nav class="hsc_nav">
+                <a class="hscn_a" href="#">Home</a>
+                <a class="hscn_a" href="#">Menu</a>
+                <a class="hscn_a" href="#">What's New</a>
+                <a class="hscn_a" href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main_starbucks">
+        <div class="ms_container">
+            <div class="msc_left">
+                <h1 class="mscl_h1">It's not just Coffee<br>It's <span class="mscl_span">Starbucks</span></h1>
+                <p class="mscl_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br>
+                    commodo consequat.</p>
+                <button class="mscl_butt">LEARN MORE</button>
+            </div>
+            <div class="msc_right">
+                <div class="mscr_inner">
+                    <div id="circle" class="mscri_circle" style="transform: rotate(0deg); background-color: #03653d;">
+                        <div class="mscric_part mscric_green"></div>
+                        <div class="mscric_part mscric_pink"></div>
+                        <div class="mscric_part mscric_purple"></div>
+                    </div>
+                </div>
+                <div class="mscri_buttblock">
+                    <a class="mscrib_butt butt_fb" href="#"></a>
+                    <a class="mscrib_butt butt_tw" href="#"></a>
+                    <a class="mscrib_butt butt_inst" href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="ms_blockbutt_inner">
+            <div class="ms_blockbutt">
+                <div class="msb_container">
+                    <button onclick="ClickButt(1)" class="msb_butt butt_green"></button>
+                </div>
+                <div class="msb_container">
+                    <button onclick="ClickButt(2)" class="msb_butt butt_pink"></button>
+                </div>
+                <div class="msb_container">
+                    <button onclick="ClickButt(3)" class="msb_butt butt_purple"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    const circle = document.getElementById('circle');
+    function ClickButt(num_butt) {
+        var rotation = circle.style.transform;
+        if (rotation === '' || rotation === 'rotate(360deg)') {
+            circle.style.transform = 'rotate(0deg)';
+        }
+        if (num_butt === 1) {
+            circle.style.transform = 'rotate(0deg)';
+            circle.style.backgroundColor = '#03653d';
+        }
+        else if (num_butt === 2) {
+            circle.style.transform = 'rotate(120deg)';
+            circle.style.backgroundColor = '#ec7397';
+        }
+        else if (num_butt === 3) {
+            circle.style.transform = 'rotate(240deg)';
+            circle.style.backgroundColor = '#d851b1';
+        }
+    }
+</script>
+</html>
