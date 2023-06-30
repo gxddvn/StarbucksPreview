@@ -43,7 +43,7 @@ a {
 .hsc_logo {
     width: 100px;
     height: 100px;
-    background-image: url('./img/logo.png');
+    background-image: url('../img/logo.png');
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,20 +142,20 @@ a {
 }
 
 .mscric_green {
-    background-image: url('./img/img1.png');
+    background-image: url('../img/img1.png');
     transform: rotate(0deg);
     left: 50px;
 }
 
 .mscric_pink {
-    background-image: url('./img/img2.png');
+    background-image: url('../img/img2.png');
     transform: rotate(240deg);
     bottom: -115px;
     left: 240px;
 }
 
 .mscric_purple {
-    background-image: url('./img/img3.png');
+    background-image: url('../img/img3.png');
     transform: rotate(120deg);
     top: 260px;
     right: -90px;
@@ -178,33 +178,33 @@ a {
 }
 
 .butt_fb {
-    background-image: url('./img/facebook1.png');
+    background-image: url('../img/facebook1.png');
     background-size: 15px;
-    transition: all .2s linear;
+    transition: all .1s linear;
 }
 
 .butt_fb:hover {
-    background-image: url('./img/facebook.png');
+    background-image: url('../img/facebook.png');
 }
 
 .butt_tw {
-    background-image: url('./img/twitter1.png');
+    background-image: url('../img/twitter1.png');
     background-size: 25px;
-    transition: all .2s linear;
+    transition: all .1s linear;
 }
 
 .butt_tw:hover {
-    background-image: url('./img/twitter.png');
+    background-image: url('../img/twitter.png');
 }
 
 .butt_inst {
-    background-image: url('./img/instagram1.png');
+    background-image: url('../img/instagram1.png');
     background-size: 25px;
-    transition: all .2s linear;
+    transition: all .1s linear;
 }
 
 .butt_inst:hover {
-    background-image: url('./img/instagram.png');
+    background-image: url('../img/instagram.png');
 }
 
 .ms_blockbutt_inner {
@@ -238,15 +238,15 @@ a {
 }
 
 .butt_green {
-    background-image: url('./img/thumb1.png');
+    background-image: url('../img/thumb1.png');
 }
 
 .butt_pink {
-    background-image: url('./img/thumb2.png');
+    background-image: url('../img/thumb2.png');
 }
 
 .butt_purple {
-    background-image: url('./img/thumb3.png');
+    background-image: url('../img/thumb3.png');
 }
 
 .msb_container {
